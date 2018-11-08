@@ -1,0 +1,59 @@
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/108/064/non_2x/free-rainbow-leak-vector.png);
+    background-size: cover;
+
+}
+
+.side-menu{
+    background-color: slategrey;
+    height: 100vh;
+    width: 100px;
+    
+}
+
+.contain{
+    display: flex;
+}
+
+.table{
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selector{
+    width: 20px;
+    height: 20x;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 100px;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.black{
+    background-color: black;
+}
+
+#canvas{
+    height: 500px;
+    width: 500px;
+    background: white;
+    position: relative;
+}

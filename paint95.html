@@ -5,18 +5,31 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./css/paint95.css">
     <title>Paint</title>
 </head>
 
 <body>
     <div class="contain">
-    <div class="side-menu">
-        <ul id="colors-menu"></ul>
-    </div>
-    <div class="table">
-        <div id='canvas'></div>
-    </div>
+        <div class="side-menu">
+            <ul id="colors-menu"></ul>
+            <button id="rubber"></button>
+            <br />
+            <br />
+            <div class="slidecontainer">
+                <label for="size">Pencil / rubber size</label>
+                <input type="range" min="2" max="40" value="20" class="slider" id="size" />
+            </div>
+            <ul class="btn-menu">
+                <li><button id="clear">CLEAR</button></li>
+                <li><button id="save">SAVE PAINTING</button></li>
+                <li><button id="load">LOAD PAINTING</button></li>
+            </ul>
+        </div>
+        <div class="table">
+            <div id='canvas'></div>
+        </div>
     </div>
     <script src="./js/paint95.js"></script>
 </body>

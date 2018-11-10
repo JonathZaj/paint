@@ -1,14 +1,17 @@
 body{
     background-image: url(https://static.vecteezy.com/system/resources/previews/000/108/064/non_2x/free-rainbow-leak-vector.png);
     background-size: cover;
+}
 
+ul{
+    list-style: none;;
+    padding-left: 0;
 }
 
 .side-menu{
     background-color: slategrey;
     height: 100vh;
     width: 200px;;
-    
 }
 
 .contain{
@@ -24,36 +27,56 @@ body{
 }
 
 #colors-menu{
-    list-style-type: none;
-    margin-top: 50px;
+    margin-top: 20px;
+    padding: auto;
 }
 
 .selector{
-    width: 50px;
-    height: 50px;
+    width: 20px;
+    height: 20px;
     display: inline-block;
     margin: 20px;
+    margin-left: 75px;
     border-radius: 100px;
 }
 
-.red{
-    background-color: red;
+#rubber{
+    background-image: url(https://cdn.icon-icons.com/icons2/906/PNG/512/eraser_icon-icons.com_70168.png);
+    background-color: slategray;
+    border: none;
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 60px;
 }
 
-.blue{
-    background-color: blue;
+label{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.green{
-    background-color: green;
+.slidecontainer {
+    width: 100%;
+    text-align: center;
 }
 
-.yellow{
-    background-color: yellow;
+.slider {
+    appearance: none;
+    width: 100%; 
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .2s;
 }
 
-.black{
-    background-color: black;
+.btn-menu button{
+    color:white;
+    background-color:rgb(13, 9, 53);
+    font-family: 'Spicy Rice', cursive;
+    font-size:20px;
+    margin: 10px;
+    width: 150px;;
+    cursor:pointer;
 }
 
 #canvas{

@@ -98,8 +98,8 @@ paint.load = function () {
         var currentDot = allDots[i];
         var newDot = document.createElement("div");
         newDot.style.backgroundColor = currentDot["color"];
-        newDot.clientHeight = currentDot["size"];
-        newDot.offsetWidth = currentDot["size"];
+        newDot.clientHeight = currentDot["size"]+"px";
+        newDot.offsetWidth = currentDot["size"]+"px";
         newDot.borderRadius = "50%"
         document.getElementById("canvas").appendChild(newDot);
         newDot.style.top = currentDot["top"] + "px";

@@ -84,6 +84,7 @@ label{
     width: 500px;
     background: white;
     position: relative;
+    overflow: hidden;
 }
 
 .loaded{

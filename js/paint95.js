@@ -100,7 +100,8 @@ paint.load = function () {
         newDot.style.backgroundColor = currentDot["color"];
         newDot.style.height = currentDot["size"]+"px";
         newDot.style.width = currentDot["size"]+"px";
-        newDot.style.borderRadius = "50%"
+        newDot.style.borderRadius = "50%";
+        newDot.className = "loaded";
         document.getElementById("canvas").appendChild(newDot);
         newDot.style.top = currentDot["top"] + "px";
         newDot.style.left = currentDot["left"] + "px";

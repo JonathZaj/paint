@@ -85,3 +85,7 @@ label{
     background: white;
     position: relative;
 }
+
+.loaded{
+    position: absolute;
+}
